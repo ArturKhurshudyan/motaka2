@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+.google {
+  width: 252px;
+  height: 48px;
+  /* background-color: white;
+    border: 0.5px solid #A3B0BC; */
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.google > img {
+  pointer-events: none;
+}
+
+.fa-facebook{
+  color:blue;
+}
+.my-facebook-button-class {
+  /* color: #3c79e6; */
+  background-color: white;
+  color: rgba(0, 0, 0, 0.54);
+  width: 252px;
+  font-family: "Poppins", sans-serif;
+
+  height: 48px;
+  font-size: 14px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+  padding: 0px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.googlefacebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}

@@ -1,0 +1,266 @@
+.modal,
+.overlay {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.modal {
+    z-index: 100;
+}
+
+.close {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.modal-content-sign {
+    position: absolute;
+    padding: 40px 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 50px rgba(0, 67, 101, 0.1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textEmail {
+    color: #9832FE;
+
+}
+
+.okBtn {
+    margin-top: 10px;
+    background-color: #9832FE;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+
+}
+
+.forgot_btn {
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    color: #9832FE;
+}
+
+.signin {
+    color: white;
+    cursor: pointer;
+}
+
+.submit_and_forgot {
+    text-align: right;
+}
+
+.forgot_header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #202029;
+    padding-bottom: 20px;
+}
+
+.forgot_text {
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.forgot_text_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9832FE;
+}
+
+.form_style {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.form_style>div {
+    width: 354px;
+}
+
+.form_style>div span {
+    color: red;
+    padding-top: 10px;
+}
+
+.form_style div label {
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3D424E;
+}
+
+.form_style div input {
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    width: 354px;
+    height: 48px;
+    padding: 10px 35px 10px 20px;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 1px solid #A3B0BC;
+    outline: none;
+    font-size: 20px;
+    color: #3D424E;
+    margin-top: 8px;
+}
+
+#submit-btn {
+    width: 356px;
+    height: 48px;
+    background: #9832FE;
+    box-shadow: 0px 4px 50px 4px rgba(0, 67, 101, 0.08);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0;
+}
+
+#send-btn {
+    width: 356px;
+    height: 48px;
+    background: #9832FE;
+    box-shadow: 0px 4px 50px 4px rgba(0, 67, 101, 0.08);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0;
+}
+
+.verify_email_content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.verify_email_content>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+
+.verify_text {
+    font-size: 18px;
+    color: #3D424E
+}
+
+.verify_email_content>div>button {
+    background-color: #9832FE;
+    width: 190px;
+    height: 35px;
+    box-shadow: 0px 4px 50px 4px rgba(0, 67, 101, 0.08);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    cursor: pointer;
+    padding:  0;
+    line-height: 18px;
+}
+
+.password_div {
+    position: relative;
+}
+
+.password_eye {
+    position: absolute;
+    top: 43px;
+    right: 15px;
+    user-select: none;
+}
+
+/* .email_input::placeholder {
+    font-size: 10px;
+} */
+
+.btn-acc {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.buttonOk {
+    color: #9832FE;
+}
+
+.forgotBtn {
+    color: #9832FE;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 245px;
+}
+
+.link_sent {
+    color: red;
+    font-size: 18px;
+}
+
+.login_error {
+    color: red
+}
+/* @media (min-width: 300px) and (max-width: 600px) {
+    .btn-modal {
+        font-size: 24px;
+        text-decoration: none;
+        color: black
+    }
+} */

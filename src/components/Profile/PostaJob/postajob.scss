@@ -1,0 +1,121 @@
+.position{
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    width: 251px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px; 
+    color: #1F2833;
+    
+}
+.postajob{
+  width: 167px;
+  height: 32px;
+  margin-top: 64px;
+  margin-left: 87px;
+  margin-bottom: 60px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+}
+  
+.flex{
+  display: flex;
+}
+
+.block label{
+  display: block;
+  width: max-content;
+  height: 18px;
+  margin-left: 87px;
+  margin-bottom: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.block input{
+  width: 347px;
+  height: 48px;
+  margin-left: 87px;
+  margin-bottom: 48px;
+  background: rgba(229, 229, 229, 0.19);
+  border: 0.5px solid #D9DADB;
+  border-radius: 10px;
+ 
+}
+
+.block input::placeholder{
+  color: black;
+  padding-left: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  opacity: 0.4;
+}
+
+.block  img{
+  margin-left: -34px;
+  // margin-top: -5px;
+  width:20px;
+  height:20px;
+  left:50px
+}
+
+.block1 label{
+  display: block;
+  width: max-content;
+  height: 18px;
+  margin-left: 87px;
+  margin-bottom: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.block1 textarea{
+  width: 781px;
+  height: 218px;
+  margin-left: 87px;
+  margin-bottom: 80px;
+  border-radius: 10px;background: linear-gradient(0deg, #D9DADB, #D9DADB),
+  linear-gradient(0deg, rgba(229, 229, 229, 0.19), rgba(229, 229, 229, 0.19));
+  background: rgba(229, 229, 229, 0.19);
+  border: 0.5px solid #D9DADB;
+  position: relative;
+}
+
+.block1 textarea::placeholder{
+  position: absolute;
+  width: 180px;
+  height: 25px;
+  margin-left: 16px;
+  margin-top: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #A6A9AF;
+
+}
+
+.btn{
+  width: 225px;
+  height: 48px;
+  margin-left: 388px;
+  background: #0DC46E;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}

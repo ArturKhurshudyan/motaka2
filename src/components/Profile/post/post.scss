@@ -1,0 +1,78 @@
+
+*{
+  
+  margin: 0;
+  padding: 0;
+  right: 0;
+}
+.JobPost{
+      width: 100%;
+          
+}
+
+.post__header{
+  
+  display: flex;
+
+  
+}
+
+.post_job{
+  width: 61px;
+  height: 32px;
+  margin-top: 88px;
+  margin-left: 79px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #0DC46E;
+  font-family: 'Poppins';
+  
+}
+
+.post_center{
+  width: 230px ;
+  display: flex;
+  margin-left: 350px;
+  margin-top: 95px;
+
+    
+
+}
+
+.categories{
+  width: 100px;
+  height: 18px;
+  margin-right: 48px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.about{
+  width: 82px;
+  height: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.post_contact-us{
+  width: 49px;
+  height: 49px;
+  margin-top: 80px;
+  margin-left: 635px;
+  background-color: #0DC46E;
+  border-radius: 50%;
+  right: 250px;
+  
+  
+}
+
+svg{
+  width: 18px;
+  height: 20px;
+  margin-top: 13px;
+  margin-left: 15px;
+  
+  
+}
