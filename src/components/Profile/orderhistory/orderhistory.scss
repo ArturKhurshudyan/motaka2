@@ -30,11 +30,12 @@
 
 
 .filter{
-  position: absolute;
+  margin-left: calc(100% - 130px);
   width: max-content;
-  right: 110px;
+  margin-right: 55px;
   display: flex;
   align-items: center;
+  margin-top: 62px;
 }
 
 .filter img{
@@ -58,7 +59,7 @@
 .block{
   width: 922px;
   height: 48px;
-  margin-top: 116px;
+  margin-top: 34px;
   margin-left: 16px;
   margin-bottom: 32px;
   margin-right: 16px;
@@ -68,7 +69,7 @@
 }
 
 .id{
-  width: max-content;
+  width: 17px;
   height: 18px;
   margin-top: 14px;
   margin-left: 70px;
@@ -78,11 +79,24 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
-  background-color:red;
+  
+}
+.idt{
+  width: 50px;
+  height: 14px;
+  margin-top: 25px;
+  margin-left: 64px;
+  margin-right: 64px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  
 }
 
 .name{
-  width: max-content;
+  width: 55px;
   height: 18px;
   margin-top: 14px;
   margin-right: 137px;
@@ -91,11 +105,22 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
-  background-color:red;
+  
 }
-
+.namet{
+  width: 130px;
+  height: 14px;
+  margin-top: 25px;
+  margin-right: 64px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  
+}
 .orederterm{
-  width: 105px;
+  width: 103px;
   height: 18px;
   margin-top: 14px;
   margin-right: 45px;
@@ -104,11 +129,24 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
-  background-color:red;
+  
+}
+
+.oredertermt{
+  width: 84px;
+  height: 14px;
+  margin-top: 25px;
+  margin-right: 64px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  
 }
 
 .type{
-  width: max-content;
+  width: 44px;
   height: 18px;
   margin-top: 14px;
   margin-right: 101px;
@@ -117,11 +155,23 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
-  background-color:red;
+  
+}
+.typet{
+  width: 81px;
+  height: 14px;
+  margin-top: 25px;
+  margin-right: 64px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  
 }
 
 .status{
-  width: max-content;
+  width: 58px;
   height: 18px;
   margin-top: 14px;
   margin-right: 84px;
@@ -130,11 +180,23 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
-  background-color:red;
+  
+}
+.statust{
+  width: 90px;
+  height: 14px;
+  margin-top: 25px;
+  margin-right: 51px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+
 }
 
 .price{
-  width: max-content;
+  width: 45px;
   height: 18px;
   margin-top: 14px;
   margin-right: 70px;
@@ -143,11 +205,23 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
-  background-color:red;
+  
+}
+.pricet{
+  width: 45px;
+  height: 14px;
+  margin-top: 25px;
+  margin-right: 31px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  
 }
 .blocki{
   width: 922px;
-  height: 48px;
+  height: 64px;
   top: 700px;
   margin-left: 15px;
   margin-bottom: 32px;
@@ -179,7 +253,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  background-color:red;
+  
 }
 
 .namei{
@@ -192,7 +266,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  background-color:red;
+  
 }
 
 .oredertermi{
@@ -205,7 +279,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  background-color:red;
+  
 }
 
 .typei{
@@ -218,7 +292,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  background-color:red;
+  
 }
 
 .statusi{
@@ -231,7 +305,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  background-color:red;
+  
 }
 
 .pricei{
@@ -244,7 +318,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  background-color:red;
+  
 }
 
 .btn{
@@ -253,4 +327,40 @@
   height: 40px;
   margin-top: 5px;
   margin-left: -35px;
+}
+
+
+.nodata{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.paginationBttns{
+  width: 98%;
+  height: 40px;
+  list-style: none;
+  display:flex;
+  justify-content: right;
+  
+}
+
+.paginationBttns a{
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid rgba(229, 229, 229, 0.19);
+
+}
+
+.paginationBttns a:hover{
+  background-color: slategray; 
+  color: white;
+  cursor: pointer;
+}
+
+.paginationActive a{
+  background-color: slategray; 
+  color: white;
 }

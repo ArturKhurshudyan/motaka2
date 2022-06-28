@@ -22,6 +22,8 @@ import plumbing from "../image/plumbing.jpg";
 import technology from "../image/technology.jpg";
 import beauty from "../image/beauty.jpg";
 import { useNavigate } from "react-router";
+
+
 export const HomePage = () => {
   const navigate = useNavigate();
   const About = () => {
@@ -53,7 +55,9 @@ export const HomePage = () => {
   };
   return (
     // <header className="header_homePage">
-    <div className="container_homePage">
+    <>
+      
+      <div className="container_homePage">
       <div className="title_homePage">
         <div className="startcareer">
           <p className="paraStart">
@@ -322,5 +326,7 @@ export const HomePage = () => {
         </div>
       </div>
     </div>
+    </>
+    
   );
 };
